@@ -70,24 +70,9 @@ class GithubPopularRepos extends Component {
 
       })
 
-
-
-    }else{
-      this.setState({
-
-        apiStatus: apiStatusConstants.failure,
-      })
     }
-    
-    }
-    else {
-      this.setState({
-        apiStatus: apiStatusConstants.failure,
-      })
 
     }
-  }
-
 
 
   renderLoadingView = () => (
